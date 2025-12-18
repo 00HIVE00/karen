@@ -163,7 +163,7 @@ a:hover { text-decoration: underline; }
 
 .nav-menu a {
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(205, 152, 7); /* or #ffd700 for a gold look */
     transition: all 0.3s ease;
     position: relative;
     padding: 0.5rem 1rem;
@@ -851,7 +851,7 @@ section {
 }
 
 .link-card p {
-    color: #666;
+    color: #ffffff; /* white */
     margin-bottom: 1.5rem;
 }
 
