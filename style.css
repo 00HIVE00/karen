@@ -1504,11 +1504,23 @@ section {
     color: var(--primary-color);
 }
 
+/* Ensure contact cards are always visible */
+.contact-card.slide-up {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.contact-link {
+    opacity: 1 !important;
+    visibility: visible !important;
+    color: #ffffff !important;
+}
+
 .contact-link {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--text-color);
+    color: #ffffff;
     font-weight: 500;
     text-decoration: none;
     transition: all 0.3s ease;
